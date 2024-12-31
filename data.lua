@@ -1,0 +1,7 @@
+require("prototypes.hidden-beacon")
+require("prototypes.hidden-modules")
+require("prototypes.module-category")
+require("prototypes.technology")
+require("prototypes.acceleration-modules")
+require("prototypes.recipe")
+require("prototypes.tips-and-tricks")
