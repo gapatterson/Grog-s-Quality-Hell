@@ -1,11 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2025-01-04
+  Bugfixes:
+    - Changelog formatting
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2025-01-04
   Features:
     - Dynamically include crafing machines, drills, furnaces.  Works with modded machines.
   Balancing:
     - Is a joke if you're using this.
-	- Changed some default settings for a faster start.
+    - Changed some default settings for a faster start.
   Bugfixes:
     - Base quality not lining up with settings.
 ---------------------------------------------------------------------------------------------------
