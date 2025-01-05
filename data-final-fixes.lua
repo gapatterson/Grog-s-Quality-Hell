@@ -1,0 +1,29 @@
+local machineTypes = {"assembling-machine", "furnace", "mining-drill"};
+for _, machineType in pairs(machineTypes) do
+	for _, machine in pairs(data.raw[machineType]) do
+		log("Adding beacon effects to " .. machine.name);
+
+		if machine.effect_receiver == nil then
+			machine.effect_receiver = {};
+		end
+		if type(machine.allowed_effects) ~= "table" then
+			-- For mining machines, nil means all modules?!
+			if machine.allowed_effects == nil then
+				machine.allowed_effects = {
+					"consumption",
+					"speed",
+					"productivity",
+					"pollution"
+				};
+			end
+		end
+		table.insert(machine.allowed_effects, "quality");
+		machine.effect_receiver.uses_beacon_effects = true;
+
+		-- Quality Acceleration modules
+		if machine.allowed_module_categories == nil then
+			machine.allowed_module_categories = {};
+		end
+		table.insert(machine.allowed_module_categories, "quality-acceleration");
+	end
+end

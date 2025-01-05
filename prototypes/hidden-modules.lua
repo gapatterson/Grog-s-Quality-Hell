@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-0",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-0.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -13,7 +13,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-1",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-1.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -24,7 +24,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-2",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-2.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -35,7 +35,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-3",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-3.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-4",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-4.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -57,7 +57,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-5",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-5.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -68,7 +68,7 @@ data:extend({
 	{
 		type = "module",
 		name = "hidden-quality-module-6",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-6.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
@@ -77,13 +77,13 @@ data:extend({
 		hidden = true,
 	},
 	{
-		type = "item",
+		type = "module",
 		name = "hidden-quality-module-7",
-		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
+		icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1-7.png",
 		subgroup = "module",
 		category = "hidden-quality",
 		stack_size = 1,
-		tier = 8,
+		tier = 2,
 		effect = { quality=1.28 },
 		hidden = true,
 	},
