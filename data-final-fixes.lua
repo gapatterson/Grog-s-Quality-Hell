@@ -17,13 +17,24 @@ for _, machineType in pairs(machineTypes) do
 				};
 			end
 		end
-		table.insert(machine.allowed_effects, "quality");
-		machine.effect_receiver.uses_beacon_effects = true;
+
+		function in_array(array, value)
+			for _, v in pairs(array) do
+				if v == value then
+					return true;
+				end
+			end
+			return false;
+		end
+
+		if not in_array(machine.allowed_effects, "quality") then
+			table.insert(machine.allowed_effects, "quality");
+		end
 
 		-- Quality Acceleration modules
-		if machine.allowed_module_categories == nil then
+		if machine.allowed_module_categories ~= nil then
 			machine.allowed_module_categories = {};
+			table.insert(machine.allowed_module_categories, "quality-acceleration");
 		end
-		table.insert(machine.allowed_module_categories, "quality-acceleration");
 	end
 end
