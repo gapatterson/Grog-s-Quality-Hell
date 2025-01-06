@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2025-01-06
+  Features:
+    - Adds more than just uncommon quality.
+  Bugfixes:
+    - Hidden beacons no longer block machine upgrades (eg: stone furnace -> steel furnace) (thanks, MindHawk)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2025-01-04
   Bugfixes:
