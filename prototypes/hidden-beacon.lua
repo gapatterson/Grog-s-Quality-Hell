@@ -10,6 +10,9 @@ data:extend({
 		supply_area_distance = 1,
 		module_slots = 128,--Why not?,
 		allowed_module_categories = {"hidden-quality"},
+		collision_mask = {
+			layers = {},
+		},
 
 		-- Debug visuals
 		-- icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
