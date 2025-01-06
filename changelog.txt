@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2025-01-06
+  Bugfixes:
+    - No longer overriding ability to place modules in machines with the Quality Acceleration modules.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 2025-01-06
   Features:
