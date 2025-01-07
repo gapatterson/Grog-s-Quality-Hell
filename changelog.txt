@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2025-01-07
+  Bugfixes:
+    - Machines placed by bots or on space platforms now apply quality properly. (thanks for the report, Sir_AL)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2025-01-06
   Bugfixes:
@@ -9,7 +14,7 @@ Date: 2025-01-06
   Features:
     - Adds more than just uncommon quality.
   Bugfixes:
-    - Hidden beacons no longer block machine upgrades (eg: stone furnace -> steel furnace) (thanks, MindHawk)
+    - Hidden beacons no longer block machine upgrades (eg: stone furnace -> steel furnace) (thanks for the report, MindHawk)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2025-01-04

@@ -91,6 +91,14 @@ script.on_event(defines.events.on_built_entity, add_quality_record, {
 	{ filter="crafting-machine" },
 	{ filter="type", type="mining-drill" },
 })
+script.on_event(defines.events.on_robot_built_entity, add_quality_record, {
+	{ filter="crafting-machine" },
+	{ filter="type", type="mining-drill" },
+})
+script.on_event(defines.events.on_space_platform_built_entity, add_quality_record, {
+	{ filter="crafting-machine" },
+	{ filter="type", type="mining-drill" }, -- For mod compatibility
+})
 
 
 -- Remove mined entity from storage
@@ -99,6 +107,10 @@ script.on_event(defines.events.on_player_mined_entity, remove_quality_record, {
 	{ filter="type", type="mining-drill" },
 })
 script.on_event(defines.events.on_robot_mined_entity, remove_quality_record, { 
+	{ filter="crafting-machine" },
+	{ filter="type", type="mining-drill" },
+})
+script.on_event(defines.events.on_space_platform_mined_entity, remove_quality_record, {
 	{ filter="crafting-machine" },
 	{ filter="type", type="mining-drill" },
 })
