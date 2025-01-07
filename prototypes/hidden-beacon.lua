@@ -14,7 +14,7 @@ data:extend({
 			layers = {},
 		},
 
-		-- Debug visuals
+		--Debug visuals
 		-- icon = "__grogs-quality-hell__/graphics/icons/hidden-module-1.png",
 		-- icon_size = 64,
 		-- graphics_set = {

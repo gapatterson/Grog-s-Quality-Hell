@@ -6,6 +6,8 @@ for _, machineType in pairs(machineTypes) do
 		if machine.effect_receiver == nil then
 			machine.effect_receiver = {};
 		end
+		machine.effect_receiver.uses_beacon_effects = true;
+
 		if type(machine.allowed_effects) ~= "table" then
 			-- For mining machines, nil means all modules?!
 			if machine.allowed_effects == nil then
